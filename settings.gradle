@@ -27,11 +27,11 @@ plugins {
     id "com.gradle.enterprise" version "3.2"
 }
 
-rootProject.name = '{{REPO_NAME}}'
+rootProject.name = 'module-ballerinax-hubspot.crm.pipelines'
 
-include ':{{MODULE_NAME_CC}}-ballerina'
+include ':hubspot.crm.pipelines-ballerina'
 
-project(':{{MODULE_NAME_CC}}-ballerina').projectDir = file("ballerina")
+project(':hubspot.crm.pipelines-ballerina').projectDir = file("ballerina")
 
 gradleEnterprise {
     buildScan {

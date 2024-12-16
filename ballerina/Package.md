@@ -12,6 +12,6 @@
 
 ## Examples
 
-The `{{MODULE_NAME_PC}}` connector provides practical examples illustrating usage in various scenarios. Explore these [examples](https://github.com/{{REPO_NAME}}/tree/main/examples/), covering the following use cases:
+The `hubspot.crm.pipelines` connector provides practical examples illustrating usage in various scenarios. Explore these [examples](https://github.com/module-ballerinax-hubspot.crm.pipelines/tree/main/examples/), covering the following use cases:
 
 [//]: # (TODO: Add examples)
