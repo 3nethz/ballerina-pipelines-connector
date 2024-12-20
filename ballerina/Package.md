@@ -2,6 +2,12 @@
 
 [//]: # "TODO: Add overview mentioning the purpose of the module, supported REST API versions, and other high-level details."
 
+[HubSpot](https://www.hubspot.com/our-story) is an customer platform with all the software, integrations, and resources users need to connect thier marketing, sales, and customer service.
+
+The `ballerinax/hubspot.crm.pipelines` package offers APIs to connect and interact with [HubSpot API for CRM Pipelines](https://developers.hubspot.com/docs/reference/api/crm/pipelines#pipelines) endpoints, specifically based on [HubSpot CRM Pipelines API v3 OpenAPI spec](https://github.com/HubSpot/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Pipelines/Rollouts/145896/v3/pipelines.json).
+
+Using this API, users can create and manage deal and ticket pipelines. Pipelines enable users to track the status or progress of deals and tickets, such as closing deals and opening support tickets.
+
 ## Setup guide
 
 [//]: # "TODO: Add detailed steps to obtain credentials and configure the module."
