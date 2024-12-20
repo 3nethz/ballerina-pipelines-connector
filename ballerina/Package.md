@@ -47,13 +47,13 @@ Within app developer accounts, you can create developer test accounts to test ap
 
    <img src=https://raw.githubusercontent.com/Sadeesha-Sath/module-ballerinax-hubspot.marketing.events/main/docs/setup/resources/create_app_2.png alt="Hubspot app creation 2 testacc3" style="width: 70%;">
 
-2. In the Scopes section, add the following scopes for your app using the "Add new scope" button.
+2. In the Scopes section, add the nessessory scopes for your app using the "Add new scope" button.
 
-   `crm.objects.marketing_events.read`
+   `crm.objects.orders.read`
 
-   `crm.objects.marketing_events.write`
-
-   <img src=https://raw.githubusercontent.com/Sadeesha-Sath/module-ballerinax-hubspot.marketing.events/main/docs/setup/resources/scope_set.png alt="Hubspot app creation 1 testacc3" style="width: 70%;">
+   `crm.schemas.orders.write`
+   
+   <img src="https://github.com/user-attachments/assets/ffe2744b-2320-4e42-966a-93f35fa5c4b9" alt="scope" style="width: 70%;">
 
 4. Add your Redirect URI in the relevant section. You can also use localhost addresses for local development purposes. Click Create App.
 
@@ -133,10 +133,11 @@ import ballerinax/hubspot.crm.pipelines as hspipelines;
 
 ### Step 2: Instantiate a new connector
 
-Create a `Config.toml` file and configure the obtained credentials:
+1. Create a `Config.toml` file and configure the obtained credentials:
 ```toml
 token = "<Access Token>"
 ```
+2. Create a `hspipelines:ConnectionConfig` with the obtained access token and initialize the connector with it.
 
 ### Step 3: Use Connector Operations
 
